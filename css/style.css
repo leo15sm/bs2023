@@ -28,6 +28,22 @@ p{
     font-weight: bold
 }
 
+#shandow{
+    position: absolute;
+    transition: transform 0.1s, box-shadow 0.1s;
+    perspective: 500px;
+}
+
+#segue{
+    position: absolute;
+    transition: transform 0.5s;
+}
+
+#container{
+    position: absolute;
+    transition: transform 0.1s;
+}
+
 /*############################################################################################*/
 #capa{
     display: flex;
