@@ -11,6 +11,7 @@ body{
     height: 100vh; 
     background-image: url(../components/images/body.jpg);
     background-size: cover;
+    font-family: popins;
 }
 
 main{
@@ -41,7 +42,7 @@ p{
 
 #container{
     position: absolute;
-    transition: transform 0.1s;
+    transition: transform 0.25s;
 }
 
 /*############################################################################################*/

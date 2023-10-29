@@ -24,4 +24,4 @@ objeto.addEventListener('mousemove', (e) => {
 objeto.addEventListener('mouseleave', () => {
     objeto.style.transform = 'rotateX(0deg) rotateY(0deg)';
 });
-
+    
