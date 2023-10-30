@@ -3,6 +3,7 @@ const objeto = document.getElementById('container');
 
 objeto.id = '';
 objeto.id = 'segue';
+objeto.id = 'container';
 
 document.addEventListener('mousemove', (e) => {
     const mouseX = e.clientX;

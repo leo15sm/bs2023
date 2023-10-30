@@ -12,6 +12,18 @@
     <title>Desafio BS 2023</title>
 </head>
 <body>
+    <section class="botao">
+        <button id="btn-perfil">Perfil</button>
+        <button id="btn-seguir">Seguir</button>
+        <button id="btn-padrao">Padrão</button>
+        <button id="btn-sombra">Sombra</button>
+    </section>
+    
+    <div id="modal-perfil" class="modal">
+        <span class="close" onclick="closeModal()"> &times; </span>
+        <img id="modal-fundo" class="modal-content">
+    </div>
+
     <main id="container">
         <section id="capa">
             <figure>
@@ -21,7 +33,9 @@
 
         <section id="perfil">
             <figure>
-                <img src="./components/images/Perfil.jpg" alt="Foto de Perfil" class="circle">
+                <img src="./components/images/Perfil.jpg" alt="Foto de Perfil" 
+                class="circle" id="foto-perfil" onclick="openModal()">
+                
                 <figcaption>Leonardo Monteiro 26</figcaption>
             </figure>
         </section>
@@ -36,7 +50,7 @@
             <article id="seguidores">
                 <Figure>
                     <img src="./components/images/follow.png" alt="seguidores" class="icon">
-                    <h3> 10K </h3>
+                    <h3> 253K </h3>
                 </Figure>
                 <p>Seguidores</p>
             </article>
@@ -44,7 +58,7 @@
             <article id="curtidas">
                 <Figure>
                     <img src="./components/images/like.png" alt="seguidores" class="icon">
-                    <h3> 10K </h3>
+                    <h3> 125K </h3>
                 </Figure>
                 <p>Curtidas</p>
             </article>
@@ -52,7 +66,7 @@
             <article id="fotos">
                 <Figure>
                     <img src="./components/images/photo.png" alt="seguidores" class="icon">
-                    <h3> 10K </h3>
+                    <h3> 189K </h3>
                 </Figure>
                 <p>Fotos</p>
             </article>

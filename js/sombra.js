@@ -2,6 +2,7 @@ const objeto = document.getElementById('container');
 
 objeto.id = '';
 objeto.id = 'shandow';
+objeto.id = 'container';
 
 objeto.addEventListener('mousemove', (e) => {
     const rect = objeto.getBoundingClientRect();
